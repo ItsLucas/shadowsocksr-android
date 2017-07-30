@@ -42,6 +42,6 @@ deploy:
   api_key:
     secure: WQ+14lDWZOc1k8o1bkcqbOX9DhK9B6B2EBy4QkjvQgtmWdVTjgUPCMwyjUmR0qRuQZOsjRHYwkMnzskak4sPTT72R7QVmjjXYoFn/iWpRFRIOWSzxBj1xEBWHYBJD2G/bdUhnZx7VzcjJ7lIjiKVvfzOnPV7g8nsh52Zld+4RqRpXUGMsKmRMWPCQFYb5+gGRReDSfwcRlJrTlpD+CncRj1Ck2avUEMZILiwET9ecy+UpH54CwAU/+S6Y7xDeDMt0dl16jozHrmL8K4/g7puVvZrwREdBlQHxwcYYtKQliadXoISEX0d1s3MRkO24MzeBMBq64LHrwFu/NTjYgvTlWQmOk7DAjiKSooBY/I3+VrLrBHkrK0WL+Z5oGGWqQTCWvpF0/TDqn1VFF1ZC055n6RGQE3hxx0yhsgpwgqWRFLt4j2qu1VrMEKB9baEfGhGMSZyyidffrUUyXICKYuMzndgqJ33hrsUSQLW4zDRrvU9a3Bp+0D1iKzqplzp2s4qAqO577xKFWgwkoewKsk9G9xtpsDKkIvHfkZJ2aUXO8Vw68tdgWWhCdklb3sQn9kFUPEoQyG2sEibEDjDc+vOIEgK02I1ynFLOwfayWOtgx9NqdKhjlCZ4/tNsMsXHbtIgrsnLW4nqCnRLA6ZsTbI8EHMlWxqHBGFpe4IwHshADE=
   file: "/home/travis/build/ItsLucas/shadowsocksr-android/target/android/output/shadowsocksr-release.apk"
+  skip_cleanup: true
   on:
-    repo: ItsLucas/shadowsocksr-android
-    branch: nokcp
+    tags: true
